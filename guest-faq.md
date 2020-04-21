@@ -31,6 +31,32 @@ If you decline both, then everyone will be presented with a world map which is n
 
 We will be enabling our cameras, that’s largely because we like to use the camera to get visual cues as to who wants to talk about something. But this is not required at all.
 
+### Advice for the Best Sounding Recording
+
+Whilst we will work to the best of our abilities when editing the recording, we ask that you take a few steps to ensure that the recording is of the highest quality possible:
+
+- Ensure that you are in a quiet area
+- Ensure that family members and/or roommates know that you are recording and ask them to not interrupt you
+- Ensure that all un-necessary applications are closed or halted
+- Ensure that all un-necessary browser tabs are closed
+- If possible, connect your microphone and camera (if using one), then reboot your computer
+  - This is advice given to us by SquadCast employees. The rationale being that some OSs can have issues addressing microphones after booting.
+- Please ensure that mobile/cell phones, tablets, and ancillary devices are set to "do not disturb"
+- Please ensure that you are not connected to a VPN
+  - SquadCast explicitly state that they do not support VPN usage
+  - If you do use a VPN, then the recording may not complete correctly, rendering the discussion useless
+- Please check your internet connectivity beforehand
+  - We recommend using [fast.com](https://fast.com) as provided by Netflix
+- We may ask you to perform a "double ender":
+  - This is where we will ask you to record your own audio at your end and send it over after the fact
+  - This can be facilitated by installing [Audacity](https://www.audacityteam.org/) or a similar audio recording application
+  - We only require your audio, so the use of [Audio Hijack](https://rogueamoeba.com/audiohijack/) (and similar applications) is not recommended
+  - Once completed, we will require you to send us the recorded audio encoded in FLAC format
+    - This can be done by Exporting as FLAC from within Audacity
+    - Or installing [ffmpeg](https://www.ffmpeg.org/) and running the following command (assuming that you have already exported as a wave file): `ffmpeg -i input_file.wav exported_flac.flac`
+- If possible, please connect to your network via ethernet rather than WiFi
+  - This can increase your available bandwidth and data transfer speed, potentially increasing the fidelity of the audio recorded
+
 ### How Will You Arrange The Interview?
 
 Typically, We will arrange the interview date and time via email.

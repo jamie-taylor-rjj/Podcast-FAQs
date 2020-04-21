@@ -1,5 +1,9 @@
 # The .NET Core Podcast Interview FAQS
 
+This section of the FAQ document is related specifically to [The .NET Core Podcast](https://dotnetcore.show). As this podcast has a different format to others that RJJ produces, details in other sections may not be relevant if you are a guest for one of the other podcasts.
+
+Please take the time to read through the main FAQs, found at the head of this document before continuing.
+
 ## Will I Need To Prepare a Bio?
 
 We appreciate that summarising one’s self can be quite daunting. However, We will prepare a basic one for you, based on my research of your online projects or the topic that we will discuss. The version that We supply is entirely changeable. You can either supply a completely different bio, supply amendments (which We will happily make), or approve the version that We have written.
