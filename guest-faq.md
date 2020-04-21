@@ -25,7 +25,7 @@ SquadCast uses your browser to record the episode. As such, it needs to get you 
 
 If you give permission for the camera to be used, everyone in the recording session will be able to see you. If you decline that, but give permission for your location to be used, then everyone will see a map, with your rough location on it - there will be no pin, but it will be correct at the town level. An example can be seen below:
 
-![An example of the map shown when GPS is permitted](.\images\gps-permitted.png)
+![An example of the map shown when GPS is permitted](./images/gps-permitted.png)
 
 If you decline both, then everyone will be presented with a world map which is not zoomed in on any location at all - focussing instead on the equator.
 
