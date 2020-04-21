@@ -19,13 +19,17 @@ You will need:
 
 We usually conduct interviews using the [SquadCast software-as-a-service platform](https://squadcast.fm/). We have found this to be more stable than using other VoIP methods (i.e. Skype), as SquadCast records locally and streams to the cloud. It also keeps each vocal track separately, that way our editing team can tweak each audio track (i.e. remove any background noise) from one track without affecting the others. It also has no software dependencies other than a modern web browser = please check their [How to be a Guest](https://squadcast.fm/guest/) page for more details.
 
----
+### SquadCast's Permissions
 
-One thing to note about SquadCast is that the default UI includes a map with a vague geo-location of all participants. This can be disabled on a per-guest basis by blocking the geo-location services API when it is requested, this will not affect the quality of the recording. However, according to their support channels, using a VPN may cause issues with the recording. If this is likely ot cause an issue, we can arrange another way of performing the interview.
+SquadCast uses your browser to record the episode. As such, it needs to get you permission to use the microphone. It will also ask for access to your camera (if you have one) and your GPS. You don’t have to agree to either of these if you don’t want to - they’re not required to make SquadCast work, and won’t be used for the recording in any way.
 
-SquadCast will also ask for video permissions. Video footage will not be used for the recording, as such it is recommended to not share video. Doing so will require more bandwidth, and could potentially affect the recording.
+If you give permission for the camera to be used, everyone in the recording session will be able to see you. If you decline that, but give permission for your location to be used, then everyone will see a map, with your rough location on it - there will be no pin, but it will be correct at the town level. An example can be seen below:
 
-Having headphones, earphones or some other form of audio monitor will ensure that there is no audio feedback from a combination of the speakers that your computer uses and the microphone that you are using.
+![An example of the map shown when GPS is permitted](.\images\gps-permitted.png)
+
+If you decline both, then everyone will be presented with a world map which is not zoomed in on any location at all - focussing instead on the equator.
+
+We will be enabling our cameras, that’s largely because we like to use the camera to get visual cues as to who wants to talk about something. But this is not required at all.
 
 ### How Will You Arrange The Interview?
 
