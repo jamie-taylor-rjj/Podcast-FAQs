@@ -4,6 +4,10 @@ A repo containing a number of FAQ documents for the different podcasts that RJJ 
 
 The markdown file found within this directory is used to quickly generate a Guest FAQ for interviews. This document is then sent to all guests who have arranged to be on the show.
 
+## Where to Start
+
+If reading on GitHub, please start with the [guest-faq.md](./guest-faq.md) file. Or if you would rather, please see the [relkeases](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases) page to grab the latest automatic build of a single PDF.
+
 ## Auto-Render
 
 This repository is set up with GitHub Actions, and will automatically render the contents of the PDF when a push is made to the Master branch. The latest version of the rendered document can be found in the [Actions tab](/actions).
