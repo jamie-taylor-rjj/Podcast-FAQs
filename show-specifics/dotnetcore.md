@@ -6,13 +6,13 @@ Please take the time to read through the main FAQs, found at the head of this do
 
 ## Will I Need To Prepare a Bio?
 
-We appreciate that summarising one’s self can be quite daunting. However, We will prepare a basic one for you, based on my research of your online projects or the topic that we will discuss. The version that We supply is entirely changeable. You can either supply a completely different bio, supply amendments (which We will happily make), or approve the version that We have written.
+We appreciate that summarising one’s self in a few sentences can be quite difficult to do. However, We will prepare a basic one for you, based on my research of your online projects or the topic that we will discuss. The version that we supply is entirely changeable. You can either supply a completely different bio, supply amendments (which we will happily make), or approve the version that We have written.
 
 Examples of past bios include:
 
-> In this episode of The .NET Core Podcast, we talk with Jamie Taylor about some of the podcasts that he creates. The list of podcasts that Jamie works on includes [The .NET Core Podcast](https://dotnetcore.show), [The Waffling Taylors](https://wafflingtaylors.rocks), [Tabs and Spaces](https://tabsandspaces.io). He describes himself as a Father, Podcaster, Developer, and life-long learner. He can be contacted on twitter [@podcasterJay](https://podcasterJay) and invites you to check out his [about.me](https://about.me/thejamietaylor) page.
+> In this episode of The .NET Core Podcast, we talk with Jamie Taylor about some of the podcasts that he creates. The list of podcasts that Jamie works on includes [The .NET Core Podcast](https://dotnetcore.show), [The Waffling Taylors](https://wafflingtaylors.rocks), [Tabs and Spaces](https://tabsandspaces.io). He describes himself as a Dad, Podcaster, Developer, and life-long learner. He can be contacted on twitter [@podcasterJay](https://podcasterJay) and invites you to check out his [about.me](https://about.me/thejamietaylor) page.
 
-The above is an example of a bio that We had written, but which was accepted as-is by the interviewee (in this case Jamie Taylor).
+The above is an example of a bio that we have written, but which was accepted as-is by the interviewee (in this case Jamie Taylor).
 
 ## What Kinds Of Questions Will Be Asked?
 
@@ -26,7 +26,7 @@ We see you as an expert in the field that we are discussing with you, as such wi
 
 (please forgive the impersonal nature of the previous sentence)
 
-As such, we will often "play dumb" with the specific subject matter or try to relate it to a metaphor or some other technology. In this respect, we are attempting to represent the audience, who may or may not have heard of the technology or field that you are representing.
+As such, we will often ask questions which may seem either leading, rather trivial about the subject matter, or try to relate it to a metaphor or some other technology. In this respect, we are attempting to represent the audience, who may or may not have heard of the technology or field that you are representing.
 
 We will send over a podcast episode planning document, which wil contain a number of questions and topics for the recording. An example set of questions would be:
 
