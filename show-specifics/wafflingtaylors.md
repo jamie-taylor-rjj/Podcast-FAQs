@@ -12,7 +12,7 @@ If you do provide a bio, we will work it into our introduction of the podcast.
 
 ## What Kinds Of Episodes Will There Be?
 
-We have done "standard" episodes (see [What Kinds Of Questions Will Be Asked?](#what-kinds-of-questions-will-be-asked) for a list of segments in those episodes), and have also done more themed episodes. The themed episodes have often been one of the following topics:
+We have done "standard" episodes (see: [What Kinds Of Questions Will Be Asked?](#what-kinds-of-questions-will-be-asked) for a list of segments in those episodes), and have also done more themed episodes. The themed episodes have often been one of the following topics:
 
 - Discussing a video game film
 - An interview with a developer/designer

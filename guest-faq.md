@@ -48,7 +48,7 @@ Whilst we will work to the best of our abilities when editing the recording, we 
 - Ensure that all un-necessary applications on your computer are closed or halted
 - Ensure that all un-necessary browser tabs are closed
 - If possible, connect your microphone and camera (if using one), then reboot your computer
-  - This is advice given to us by SquadCast employees. The rationale being that some OSs can have issues addressing microphones after booting.
+  - This is advice given to us by SquadCast employees. The rationale being that some Operating Systems and configurations can have issues addressing microphones after booting.
 - Please ensure that mobile/cell phones, tablets, and ancillary devices are set to "do not disturb"
 - Please ensure that you are not connected to a VPN
   - SquadCast explicitly state that they do not support VPN usage
