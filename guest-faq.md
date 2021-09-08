@@ -17,7 +17,7 @@ You will need:
 - a PC, laptop, or similar
 - a web browser
 
-We usually conduct interviews using the [SquadCast software-as-a-service platform](https://squadcast.fm/). We have found this to be more stable than using other VoIP methods (i.e. Skype), as SquadCast records locally and streams to the cloud. It also keeps each vocal track separately, that way our editing team can tweak each audio track (i.e. remove any background noise) from one track without affecting the others. It also has no software dependencies other than a modern web browser - please check their [How to be a Guest](https://squadcast.fm/guest/) page for more details.
+We usually conduct interviews using either the [SquadCast software-as-a-service platform](https://squadcast.fm/) of Discord. We have found SqudCast to be more stable than using other VoIP methods (i.e. Skype), as SquadCast records locally and streams to the cloud - and Discord even more so. It also keeps each vocal track separately, that way our editing team can tweak each audio track (i.e. remove any background noise) from one track without affecting the others. It also has no software dependencies other than a modern web browser - please check their [How to be a Guest](https://squadcast.fm/guest/) page for more details.
 
 You will _not_ require any form of account with SquadCast in order to take part in the episode recording. You will receive a link from SquadCast which will take you to a recording session (the vocabulary that SquadCast uses isa "recording room"). The host(s) of the show that you are going to appear on will be present in this room at the scheduled time and will happily answer any questions before the recording begins.
 
@@ -29,9 +29,25 @@ If you give permission for the camera to be used, everyone in the recording sess
 
 We will be enabling our cameras, that’s largely because we like to use the camera to get visual cues as to who wants to talk about something. But this is not required at all.
 
-### What If I Flub/Bungle/Botch What I Am Saying?
+#### Discord Setup
 
-None of the [RJJ](https://rjj-software.co.uk) produced podcasts are live in any way, and are all edited offline. This means that, should you require more time to make a point or have any trouble saying something, you only have to request another attempt at making it, and our editing team will handle cutting out the previous attempt.
+In order to use Discord as a recording system, you will need to join the relevant Discord server for the show you will be guesting on. These details will be sent to you as part of the email exchange that we will have prior to recording.
+
+You will need to have joined the Discord server ahead of the proposed recording date (or the proposed pre-recording discovery call date), and will be invited to join an audio room for the duration of the call. Once ready to start recording, you will head an automated voice stating:
+
+> RECORDING
+
+It is vital that you do not navigate to other rooms until the recording has ended, as this will cause Discord to immediately stop recording.
+
+When the recording session has ended, you will hear an automated voice stating:
+
+> STOPPED RECORDING
+
+At this point, it is safe to leave the recording room should you wish.
+
+### What If I Flub/Bungle/Botch What `I Am Saying?
+
+None of the [RJJ](https://rjj-softwar`e.co.uk) produced podcasts are live in any way, and are all edited offline. This means that, should you require more time to make a point or have any trouble saying something, you only have to request another attempt at making it, and our editing team will handle cutting out the previous attempt.
 
 [Jamie](https://twitter.com/podcasterjay), for instance, often says:
 
@@ -40,6 +56,14 @@ None of the [RJJ](https://rjj-software.co.uk) produced podcasts are live in any 
 when he flubs a sentence or falls over his words. The "better" version of the sentence is used in the final cut of the episode, and the same respect will be offered to you.
 
 ### Advice for the Best Sounding Recording
+
+tl;dr -> anything that you can hear will be picked up by the microphone; any seat shuffling, desk banging, eating, or other people (or pets) in the room with you. These things can be removed from the final recording, but it will substantially increase editing time. It would normally take around 90 minutes to edit a 30 minute block of audio, with extra background sounds this will increase three to tend fold - so a 30 minute block of audio could take upwards of 900 minutes to edit.
+
+The simple rule of:
+
+> garbage audio in will equal garbage audio out
+
+is worth remembering.
 
 Whilst we will work to the best of our abilities when editing the recording, we ask that you take a few steps to ensure that the recording is of the highest quality possible:
 
