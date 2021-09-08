@@ -19,7 +19,7 @@ The above is an example of a bio that we have written, but which was accepted as
 We see you as an expert in the field that we are discussing with you, as such will be asking you questions about your chosen field and how it relates to either:
 
 - .NET Core
-- ASP.NET Core
+- ASP .NET Core
 - EF Core
 - SignalR
 - etc.
