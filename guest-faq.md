@@ -139,5 +139,5 @@ This document is collaborative in nature and we ask you to feel free to edit the
 
 For show specific questions, please see the following list:
 
-- [The .NET Core Podcast FAQ](show-specifics\dotnetcore.md)
-- [The Waffling Taylors Podcast FAQ](show-specifics\wafflingtaylors.md)
+- [The .NET Core Podcast FAQ](show-specifics/dotnetcore.md)
+- [The Waffling Taylors Podcast FAQ](show-specifics/wafflingtaylors.md)
