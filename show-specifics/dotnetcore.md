@@ -28,7 +28,7 @@ For your peace of mind, we will make a point of announcing that you are answerin
 
 As our release schedule is rather agile in its nature, We would need notes back from you as soon as possible. The lead time in releasing to the public RSS feeds is usually a week or so but can be up to two months, as such we will need at least a few days notice for any requested edits. We do not require a lot of information on potential edits, the following (rather impersonal) format is all that is required:
 
-```
+``` plaintext
 Here are my requested edits:
 
 38:40 - 39:10 Please remove the name of the new features, they are not ready
