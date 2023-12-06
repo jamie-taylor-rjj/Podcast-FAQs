@@ -21,7 +21,7 @@ jobs:
           # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args: guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
+          args: about.md guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
       - uses: actions/upload-artifact@master
         with:
           name: output
