@@ -6,7 +6,7 @@ The markdown file found within this directory is used to quickly generate a Gues
 
 ## Where to Start
 
-If reading on GitHub, please start with the [guest-faq.md](./guest-faq.md) file. Or if you would rather, please see the [releases](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases) page to grab the latest automatic build of a single PDF.
+If reading on GitHub, please start with the [about.md](./about.md) file. Or if you would rather, please see the [releases](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases) page to grab the latest automatic build of a single PDF.
 
 ## Auto-Render
 
