@@ -37,6 +37,8 @@ EnnuiCastr works similarly to other remote podcast recording applications (such 
 
 You will _not_ need an account or to pay for EnnuiCastr, as we will handle setting up and managing the recording session. You will just need to open a link in your web browser to join the recording session.
 
+---
+
 If, for some reasons, EnnuiCastr proves to be difficult to set up, we will fall back to using Discord and a bot called [Craig](https://craig.chat). Both EnnuiCastr and Craig record audio using the [Opus audio codec](https://en.wikipedia.org/wiki/Opus_(audio_format)) which is very high quality for very low bandwidth - meaning that it doesn't get in the way of facilitating the conversation, and uses very little bandwidth - they both also record each person's audio as a separate track, which is a necessity for the high-quality of editing that [RJJ provide as part of our podcast mastering](https://rjj-software.co.uk/podcasting-services/).
 
 If you do not have a Discord account, we can still arrange recording using a VoIP-based service, but we will prefer to use either EnnuiCastr, or Discord and Craig where possible.
@@ -48,6 +50,8 @@ The reasons we like to use the above mentioned apps are numerous, but the two ma
 - The ease of use that Craig provides both to our guests and to our editing staff
 
 Craig records audio using the [Opus audio codec](https://en.wikipedia.org/wiki/Opus_(audio_format)) which is rather high quality for very low bandwidth - meaning that it doesn't get in the way of facilitating the conversation, and uses very little bandwidth - and Craig also records each person's audio as a separate track, which is a necessity for the high-quality of editing that [RJJ provide as part of our podcast mastering](https://rjj-software.co.uk/podcasting-services/).
+
+---
 
 In previous years, we have used [SquadCast software-as-a-service platform](https://squadcast.fm/) to facilitate the recording of our podcasts. Whilst we found this service to be more stable than the majority of VoIP products (Skype, Zoom, Hangouts, etc.) we also found that it wasn't as fit for our purposes as we would like. As such, all of the RJJ-produced podcasts are now recorded via either EnnuiCastr, or Craig and Discord.
 
