@@ -39,11 +39,11 @@ Pull requests are welcome, but please take a moment to read the [Code of Conduct
 One of the quickest and easiest ways to render this markdown to a PDF (for example) is to use [PanDoc](https://pandoc.org/), which is available for free. In order to render the Guest FAQ as a PDF, simply run the following command:
 
 ``` bash
-pandoc guest-faq.md .\show-specifics\dotnetcore.md .\show-specifics\wafflingtaylors.md --pdf-engine=xelatex -o guest-faq.pdf --toc
+pandoc guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -o guest-faq.pdf --toc
 ```
 
 This render the guest-faq.pdf. However the resulting PDF has very wide margins, as is the default in TeX based systems (which is what pandoc uses in the conversion). To produce a version of the document with smaller margins, use the following command:
 
 ``` bash
-pandoc guest-faq.md .\show-specifics\dotnetcore.md .\show-specifics\wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
+pandoc guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
 ```
