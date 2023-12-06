@@ -1,4 +1,6 @@
-# Purpose Of This Document
+# Guest FAQs for RJJ Software Produced Podcasts
+
+## Purpose Of This Document
 
 We would like to thank you for agreeing to be interviewed for one of our podcasts. In preparation of your appearance on one of our shows, we would like to share this document with you as it provides answers to some of the frequent questions guests ask about being interviewed for one of the [RJJ](https://rjj-software.co.uk)-produced podcasts. Hopefully, this document will provide answers to any questions that you have and provide a little insight into the process of being interviewed for the show.
 
@@ -11,6 +13,8 @@ We understand that there is a lot of information in this document, but we ask th
 ## Obtaining the Latest Document
 
 Although we will be sure to send you the very latest version of this document, if you're unsure as to whether you have the latest version of this document, you can find a PDF version of it at the [GitHub releases page](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases).
+
+\pagebreak
 
 ## Generic Questions
 
@@ -65,6 +69,8 @@ When it comes to browser support for EnnuiCastr, we would like to quote the [htt
 
 (source: [https://ecastr.com/faq/](https://ecastr.com/faq/), captured on December 5th, 2023)
 
+Whilst the above quote mentions "Any computer or phone" we would prefer that you don't join from a phone.
+
 ### How We Record
 
 This section contains questions which are directly related to the process and software that we use for recording episodes. We would advise the experienced podcasters take a look at [EnnuiCastr Setup](#ennuicastr-setup), and that inexperienced podcasters or those new to podcasting pay attention to the [VPNs and Tor](#vpns-and-tor) and [Software Updates](#software-updates) sections.
@@ -89,13 +95,11 @@ In order to use Discord as a recording system, you will need to join the relevan
 
 You will need to have joined the Discord server ahead of the proposed recording date (or the proposed pre-recording discovery call date), and will be invited to join an audio room for the duration of the call.
 
-![A red arrow points to an audio chat room on the Modern .NET Core Show discord server called "Interview Room"](./img/dotnetcore-interview-room.jpg)
-
-*The location of the recording room for [The Modern .NET Show](https://dotnetcore.show/)*
+![A red arrow points to an audio chat room on the Modern .NET Show discord server called "Interview Room"](./img/dotnetcore-interview-room.jpg)
 
 Once ready to start recording, you will hear an automated voice stating:
 
-> RECORDING
+> NOW RECORDING
 
 It is vital that you do not navigate to other rooms until the recording has ended, as this will cause Discord to immediately stop recording.
 
@@ -111,15 +115,17 @@ We may ask for you to provide a local recording (aka a "double-ender"). There ar
 
 In either case, there are lots of apps you can use for this, some of which ship with your operating system; such as [Sound Recorder on Windows](https://support.microsoft.com/en-us/windows/sound-recorder-app-for-windows-faq-5c208478-2141-bd07-fe1d-d6d1356c1d56), and [Garage Band on MacOS](https://apps.apple.com/us/app/garageband/id408709785). However, we would recommend something like [Audacity](https://www.audacityteam.org) as it is free and works on all major computer operating systems.
 
-If we need ot rely on a local recording, we will likely ask to perform a "sync clap". For this, the recording host will count down from three, and everyone will need to clap on an unsaid zero. As an example:
+![An unsynchronised set of recordings; notice the collection of three large vertical spikes toward the centre of the image and how they appear to be happening at different times](./img/unsyncrhonisd.jpg)
+
+If we need to rely on a local recording, we will likely ask to perform a "sync clap". For this, the recording host will count down from three, and everyone will need to clap on an unsaid zero. As an example:
 
 **Host**: 3, 2, 1
+
 **Host and Guest**: &ast;_clap_&ast;
 
-// need a screen shot of two tracks, with sync claps, in sync
-// need a screen shot of two tracks, with sync claps, out of sync
-
 The reason for this, is that the spikes in the audio from the clap create a near-perfect visual synchronisation point. This helps the editing team at RJJ Software to ensure that all audio recordings are in sync before the start editing; which can save hours of manually tweaking the audio to synchronise everything during the edit.
+
+![An synchronised set of recordings; notice the collection of three large vertical spikes toward the right-hand side of the image and how they are now appearing on above each other.](./img/syncrhonised.jpg)
 
 #### VPNs and Tor
 
@@ -214,3 +220,5 @@ Whilst we will work to the best of our abilities when editing the recording, we 
       - where `inputfile.wav` is the recording that you exported from Audacity and `exported_flac.flac` is the file that you will send us
 - If possible, please connect to your network via ethernet rather than WiFi
   - This can increase your available bandwidth and data transfer speed, potentially increasing the fidelity of the audio recorded
+
+\pagebreak
