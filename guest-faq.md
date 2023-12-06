@@ -1,30 +1,12 @@
-# Guest FAQs for RJJ Software Produced Podcasts
-
-## Purpose Of This Document
-
-We would like to thank you for agreeing to be interviewed for one of our podcasts. In preparation of your appearance on one of our shows, we would like to share this document with you as it provides answers to some of the frequent questions guests ask about being interviewed for one of the [RJJ](https://rjj-software.co.uk)-produced podcasts. Hopefully, this document will provide answers to any questions that you have and provide a little insight into the process of being interviewed for the show.
-
-If you still have questions, please feel free to contact us and ask directly. We will likely ask for permission to include a version of your questions in the next version of this document - this is not a requirement, but we're always looking to improve this document.
-
-Our thanks go out to those listed in the [contributors](./Contributors.md) document for their help with drafting this document.
-
-We understand that there is a lot of information in this document, but we ask that you read through the [Generic Questions](#generic-questions) section, at least, ahead of your recording session with us. We are happy to arrange a call and discuss the points in this document ahead of the recording.
-
-## Obtaining the Latest Document
-
-Although we will be sure to send you the very latest version of this document, if you're unsure as to whether you have the latest version of this document, you can find a PDF version of it at the [GitHub releases page](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases).
-
-\pagebreak
-
-## Generic Questions
+# Generic Questions
 
 These questions and points are related to both all of the podcasts that we produce and any any other podcasts you might appear on. As such, they are more generic than the questions which are specific to our shows.
 
-### Equipment and Software Questions
+## Equipment and Software Questions
 
 This section contains questions which are directly related to the equipment and software that you will need in order to be a guest on one of our shows. Experienced podcasters will likely now the answers to these questions, however inexperienced podcasters or those new to podcasting may not.
 
-#### Do I Need Any Specific Equipment?
+### Do I Need Any Specific Equipment?
 
 You will need:
 
@@ -33,7 +15,7 @@ You will need:
 - a PC, laptop, or similar
 - a web browser
 
-#### What About Software?
+### What About Software?
 
 Our preferred method of recording podcasts is to use a Software-as-a-service webapp called [EnnuiCastr](https://ecastr.com/faq/). This is a very minimal application and doesn't require installation of any applications. Because of the simiplicity of setting up and joining a recording, we will prefer EnnuiCastr over any other method - we will send you a link to a recording session, and you need to open that link in the browser.
 
@@ -59,7 +41,7 @@ Craig records audio using the [Opus audio codec](https://en.wikipedia.org/wiki/O
 
 In previous years, we have used [SquadCast software-as-a-service platform](https://squadcast.fm/) to facilitate the recording of our podcasts. Whilst we found this service to be more stable than the majority of VoIP products (Skype, Zoom, Hangouts, etc.) we also found that it wasn't as fit for our purposes as we would like. As such, all of the RJJ-produced podcasts are now recorded via either EnnuiCastr, or Craig and Discord.
 
-#### Web Browser & Setup
+### Web Browser & Setup
 
 For EnnuiCastr to work at peak efficiency (and for any recording session to happen with as few issues as possible), we recommend that you ensure that you are using the latest version of your web browser of choice. Most modern web browsers update themselves, but you may have to initiate an update sequence if you run a Linux based operating system (if you're not sure whether you are running an Linux based operating system, then you probably aren't).
 
@@ -71,11 +53,11 @@ When it comes to browser support for EnnuiCastr, we would like to quote the [htt
 
 Whilst the above quote mentions "Any computer or phone" we would prefer that you don't join from a phone.
 
-### How We Record
+## How We Record
 
 This section contains questions which are directly related to the process and software that we use for recording episodes. We would advise the experienced podcasters take a look at [EnnuiCastr Setup](#ennuicastr-setup), and that inexperienced podcasters or those new to podcasting pay attention to the [VPNs and Tor](#vpns-and-tor) and [Software Updates](#software-updates) sections.
 
-#### EnnuiCastr Setup
+### EnnuiCastr Setup
 
 Joining an EnnuiCastr session should be a case of heading to a provided link in your web browser and giving EnnuiCastr permission to use your microphone. The format of the provided URL will be: `https://weca.st/?` followed by four groups of characters, separated with hyphens. We will provide you with this URL ahead of time.
 
@@ -89,7 +71,7 @@ EnnuiCastr uses "progressive upload", this means that it will store the audio in
 
 When the recording is completed, the user interface will go back to it's default colour theme. At this point, it will be safe to disconnect if you wish.
 
-#### Discord Setup
+### Discord Setup
 
 In order to use Discord as a recording system, you will need to join the relevant Discord server for the show you will be guesting on. These details will be sent to you as part of the email exchange that we will have prior to recording.
 
@@ -109,7 +91,7 @@ When the recording session has ended, you will hear an automated voice stating:
 
 At this point, it is safe to leave the recording room should you wish.
 
-#### Local Recording Setup
+### Local Recording Setup
 
 We may ask for you to provide a local recording (aka a "double-ender"). There are many reasons for this, one reason being a potential unstable connection which could lead to a broken recording; another reason might be that you are unable to use EnnuiCastr or Discord.
 
@@ -127,7 +109,7 @@ The reason for this, is that the spikes in the audio from the clap create a near
 
 ![An synchronised set of recordings; notice the collection of three large vertical spikes toward the right-hand side of the image and how they are now appearing on above each other.](./img/syncrhonised.jpg)
 
-#### VPNs and Tor
+### VPNs and Tor
 
 If you are running a VPN locally, we ask that you disable it for the recording. This is because VPNs will negatively impact the recording applications that we use to facilitate the session.
 
@@ -135,7 +117,7 @@ We also ask that you use a non-Tor based browser. If you are unsure whether you 
 
 We cannot, and do not, support recording sessions in which guests utilise either a VPN or Tor-based browser. We realise that this may cause issues for guests who may require these to be setup and present. If you require either a VPN or a Tor-based browser, please let us know and we will come up with an alternative way of recording the sessions.
 
-#### Software Updates
+### Software Updates
 
 We recommend that you disable automatic operating system updates ahead of your recording session. This is because installation of system updates in the background is a very CPU intensive task, which requires temporarily taking parts of the operating system offline, and this can lead to degraded performance or hardware stopping working.
 
@@ -143,7 +125,7 @@ This is only a problem on Windows based computers (and laptops), as MacOS and Li
 
 We recommend that you check for system updates a few days ahead of the planned recording session and install any during a regularly scheduled update window. This will ensure that your computer is running with those updates before we record. For this reason, we tend not to book recording sessions on or directly after "[Patch Tuesday](https://en.wikipedia.org/wiki/Patch_Tuesday)"
 
-#### How Will You Arrange The Interview?
+### How Will You Arrange The Interview?
 
 Typically, we will arrange the interview date and time via email.
 
@@ -157,7 +139,7 @@ Once the date and time have been confirmed, we will arrange a Discord recording 
 
 The podcast planning document will contain a link to the relevant Discord server, a link to this document, and a summary of the questions, topics, and points that we are aiming to cover in the session. Please see the [Podcast Planning Document](#podcast-planning-document) section for more details.
 
-#### How Long Will The Interview Last?
+### How Long Will The Interview Last?
 
 We usually ask that guests block out 90-120 minutes of their schedule for the interview, however most interviews will take less than 90 minutes.
 
@@ -167,7 +149,7 @@ For details on how long recordings for each podcast will take, please see the "H
 
 You are free to take as much time as you may need in order to answer a question. Similarly, if you find that you would like to start over with your answer to a question or a topic, you need only ask.
 
-#### Podcast Planning Document
+### Podcast Planning Document
 
 In advance of the recording session, we will send over a document which will outline the episode we wish to record with you. This document will contain:
 
@@ -178,11 +160,11 @@ In advance of the recording session, we will send over a document which will out
 
 This document is collaborative in nature and we ask you to feel free to edit the list of questions, topics, and points, along with anything else in the document ahead of recording. We will use this document whilst recording the episode, as an aid to memory.
 
-### Podcasting Advice
+## Podcasting Advice
 
-This section contains questions adn generic advice for guests, both experienced and new. We recommend that all guests take a cursory glance at these questions, as there are points here which might be specific to our shows.
+This section contains questions and generic advice for guests, both experienced and new. We recommend that all guests take a cursory glance at these questions, as there are points here which might be specific to our shows.
 
-#### What If I Flub/Bungle/Botch What I Am Saying?
+### What If I Flub/Bungle/Botch What I Am Saying?
 
 None of the [RJJ](https://rjj-software.co.uk) produced podcasts are live in any way, and are all edited offline. This means that, should you require more time to make a point or have any trouble saying something, you only have to request another attempt at making it, and our editing team will handle cutting out the previous attempt.
 
@@ -192,7 +174,7 @@ None of the [RJJ](https://rjj-software.co.uk) produced podcasts are live in any 
 
 when he flubs a sentence or falls over his words. The "better" version of the sentence is used in the final cut of the episode, and the same respect will be offered to you.
 
-#### Advice for the Best Sounding Recording
+### Advice for the Best Sounding Recording
 
 tl;dr -> anything that you can hear will be picked up by the microphone; any seat shuffling, desk banging, eating, or other people (or pets) in the room with you. These things can be removed from the final recording, but it will substantially increase editing time. It would normally take around 90 minutes to edit a 30 minute block of audio, with extra background sounds to be edited out this will increase three to tend fold - so a 30 minute block of audio could take upwards of 900 minutes to edit.
 
