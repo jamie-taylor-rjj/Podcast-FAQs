@@ -1,6 +1,6 @@
-# The .NET Core Podcast Interview FAQS
+# The Modern .NET Show Interview FAQS
 
-This section of the FAQ document is related specifically to [The .NET Core Podcast](https://dotnetcore.show). As this podcast has a different format to others that RJJ produces, details in other sections may not be relevant if you are a guest for one of the other podcasts.
+This section of the FAQ document is related specifically to [The Modern .NET Show](https://dotnetcore.show). As this podcast has a different format to others that RJJ produces, details in other sections may not be relevant if you are a guest for one of the other podcasts.
 
 Please take the time to read through the main FAQs, found at the head of this document before continuing.
 
@@ -10,7 +10,7 @@ We appreciate that summarising one’s self in a few sentences can be quite diff
 
 Examples of past bios include:
 
-> In this episode of The .NET Core Podcast, we talk with Jamie Taylor about some of the podcasts that he creates. The list of podcasts that Jamie works on includes [The .NET Core Podcast](https://dotnetcore.show), [The Waffling Taylors](https://wafflingtaylors.rocks), [Tabs and Spaces](https://tabsandspaces.io). He describes himself as a Dad, Podcaster, Developer, and life-long learner. He can be contacted on twitter [@podcasterJay](https://podcasterJay) and invites you to check out his [about.me](https://about.me/thejamietaylor) page.
+> In this episode of The Modern .NET Show, we talk with Jamie Taylor about some of the podcasts that he creates. The list of podcasts that Jamie works on includes [The Modern .NET Show](https://dotnetcore.show), [The Waffling Taylors](https://wafflingtaylors.rocks), [Tabs and Spaces](https://tabsandspaces.io). He describes himself as a Dad, Podcaster, Developer, and life-long learner. He can be contacted on twitter [@podcasterJay](https://podcasterJay) and invites you to check out his [about.me](https://about.me/thejamietaylor) page.
 
 The above is an example of a bio that we have written, but which was accepted as-is by the interviewee (in this case Jamie Taylor).
 
@@ -18,10 +18,13 @@ The above is an example of a bio that we have written, but which was accepted as
 
 We see you as an expert in the field that we are discussing with you, as such will be asking you questions about your chosen field and how it relates to either:
 
-- .NET Framework / Core / 5 / 6 / etc.
-- ASP .NET
+- .NET
+- ASP .NET Core
 - EF Core
 - SignalR
+- Software development patterns and techniques
+- Azure / AWS / Cloud provided technologies
+- NuGet packages
 - etc.
 
 (please forgive the impersonal nature of the previous sentence)
