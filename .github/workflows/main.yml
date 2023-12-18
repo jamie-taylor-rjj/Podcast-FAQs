@@ -11,7 +11,8 @@ on:
       - main
 
 jobs:
-  convert_via_pandoc:
+  wt:
+    name: "Render Waffling Taylors FAQ document"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -21,7 +22,41 @@ jobs:
           # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args: about.md guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
+          args: ./show-specifics/wafflingtaylors.md guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o wt-guest-faq.pdf --toc
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: ./wt-guest-faq.pdf
+
+  mdns:
+    name: "Render Modern .NET Show FAQ document"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir output  # create output dir
+          # this will also include README.md
+          # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: ./show-specifics/moderndotnet.md guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o mdns-guest-faq.pdf --toc
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: ./mdns-guest-faq.pdf
+
+  generic:
+    name: "Render Generic FAQ document"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir output  # create output dir
+          # this will also include README.md
+          # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
       - uses: actions/upload-artifact@master
         with:
           name: output
