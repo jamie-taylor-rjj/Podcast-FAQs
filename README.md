@@ -6,7 +6,7 @@ The markdown file found within this directory is used to quickly generate a Gues
 
 ## Where to Start
 
-If reading on GitHub, please start with the [guest-faq.md](./guest-faq.md) file. Or if you would rather, please see the [releases](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases) page to grab the latest automatic build of a single PDF.
+If reading on GitHub, please start with the [about.md](./about.md) file. Or if you would rather, please see the [releases](https://github.com/jamie-taylor-rjj/Podcast-FAQs/releases) page to grab the latest automatic build of a single PDF.
 
 ## Auto-Render
 
@@ -36,14 +36,34 @@ Pull requests are welcome, but please take a moment to read the [Code of Conduct
 
 ## Manually Rendering to PDF
 
-One of the quickest and easiest ways to render this markdown to a PDF (for example) is to use [PanDoc](https://pandoc.org/), which is available for free. In order to render the Guest FAQ as a PDF, simply run the following command:
+One of the quickest and easiest ways to render this markdown to a PDF (for example) is to use [PanDoc](https://pandoc.org/), which is available for free.
+
+There are three documents in this repository, rendering them all requires the use of three commands:
 
 ``` bash
-pandoc guest-faq.md .\show-specifics\dotnetcore.md .\show-specifics\wafflingtaylors.md --pdf-engine=xelatex -o guest-faq.pdf --toc
+# Render the Modern .NET Show FAQs
+pandoc ./show-specifics/moderndotnet.md guest-faq.md about.md --pdf-engine=xelatex -o mdns-guest-faq.pdf --toc
+
+# Render the Waffling Taylors FAQs
+pandoc ./show-specifics/wafflingtaylors.md guest-faq.md about.md  --pdf-engine=xelatex-o wt-guest-faq.pdf --toc
+
+# Render the generic podcasting FAQs
+pandoc guest-faq.md about.md --pdf-engine=xelatex -o guest-faq.pdf --toc
 ```
 
-This render the guest-faq.pdf. However the resulting PDF has very wide margins, as is the default in TeX based systems (which is what pandoc uses in the conversion). To produce a version of the document with smaller margins, use the following command:
+These will render the documents. However the resulting PDF has very wide margins, as is the default in TeX based systems (which is what pandoc uses in the conversion). To produce a version of the document with smaller margins, use the following command:
 
 ``` bash
-pandoc guest-faq.md .\show-specifics\dotnetcore.md .\show-specifics\wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
+# Render the Modern .NET Show FAQs
+pandoc ./show-specifics/moderndotnet.md guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o mdns-guest-faq.pdf --toc
+
+# Render the Waffling Taylors FAQs
+pandoc ./show-specifics/wafflingtaylors.md guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o wt-guest-faq.pdf --toc
+
+# Render the generic podcasting FAQs
+pandoc guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
 ```
+
+## Page Breaks
+
+As the input files in this repo are markdown and they will be processed by pandoc's LaTeX engine, we can make use of `\pagebreak` commands. These are LaTeX native _requests_ to the LaTeX engine to place the content which follows the request on the next page. This is different to `\newpage`, which acts more like a demand than a request - the result of `\pagebreak` isn't guaranteed to happen if there is already a natural page break following it.

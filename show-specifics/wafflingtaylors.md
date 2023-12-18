@@ -1,8 +1,18 @@
 # The Waffling Taylors Podcast Interview FAQS
 
-This section of the FAQ document is related specifically to [The Waffling Taylors Podcast](https://wafflingtaylors.rocks). As this podcast has a different format to others that RJJ produces, details in other sections may not be relevant if you are a guest for one of the other podcasts.
+This document contains some of the most frequently asked questions by guests of [The Waffling Taylors Podcast](https://wafflingtaylors.rocks).
 
-Please take the time to read through the main FAQs, found at the head of this document before continuing.
+## How Long Will The Interview Last?
+
+We usually ask that guests block out 90-120 minutes of their schedule for the interview, however most interviews will take less than 90 minutes.
+
+The reason that we ask guests to block out that much time is to ensure that we have time for a sound check and a light chat at the beginning of the session, along with a conversation about when we are planning to release the episode at the end of the session.
+
+As this show is rather relaxed in nature, and we expect and encourage tangents and exploration of silly ideas, we expect that recording sessions to last a little longer than the other shows we produce. Some of our longest recording sessions have run past the three hour mark (these have been edited down to 60 minute episodes when released), so we are happy to run longer than planned if the mood and conversation takes us in that direction.
+
+Because recordings for this show can run a little longer than most, we understand that a break might be required. If you require a break (bio/bathroom or otherwise) let us know and we'll take a break immediately.
+
+You are free to take as much time as you may need in order to raise a point or answer a question.. Similarly, if you find that you would like to start over with your answer to a question or a topic, you need only ask.
 
 ## Will I Need To Prepare a Bio?
 

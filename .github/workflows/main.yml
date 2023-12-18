@@ -11,7 +11,28 @@ on:
       - main
 
 jobs:
-  convert_via_pandoc:
+
+  build-specifics:
+    strategy:
+      matrix:
+        job: [wafflingtaylors, moderndotnet]
+    needs: generic
+    name: "Render ${{ matrix.job }} FAQ document"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir output
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: about.md ./show-specifics/${{ matrix.job }}.md guest-faq.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o ${{ matrix.job }}-guest-faq.pdf --toc
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.job }}-output
+          path: ./${{ matrix.job }}-guest-faq.pdf
+
+  generic:
+    name: "Render Generic FAQ document"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -21,8 +42,8 @@ jobs:
           # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args: guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
-      - uses: actions/upload-artifact@master
+          args: guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
+      - uses: actions/upload-artifact@v4
         with:
-          name: output
+          name: generic-output
           path: ./guest-faq.pdf

@@ -2,7 +2,9 @@
 
 Please check if your PR fulfills the following requirements:
 
-- [ ] Build (`pandoc guest-faq.md .\show-specifics\dotnetcore.md .\show-specifics\wafflingtaylors.md --pdf-engine=xelatex -o guest-faq.pdf`) was run locally and the PDF is generated correctly
+- [ ] Build generic (`pandoc ./show-specifics/moderndotnet.md guest-faq.md about.md --pdf-engine=xelatex -o mdns-guest-faq.pdf --toc`) was run locally and the PDF is generated correctly
+- [ ] Build Modern .NET Show (`pandoc guest-faq.md about.md --pdf-engine=xelatex -o guest-faq.pdf --toc`) was run locally and the PDF is generated correctly
+- [ ] Build Waffling Taylors (`pandoc pandoc ./show-specifics/wafflingtaylors.md guest-faq.md about.md  --pdf-engine=xelatex-o wt-guest-faq.pdf --toc`) was run locally and the PDF is generated correctly
 
 ## Pull request type
 
