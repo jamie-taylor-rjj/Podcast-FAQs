@@ -11,6 +11,41 @@ on:
       - main
 
 jobs:
+  wt:
+    needs: [generic, mdns]
+    name: "Render Waffling Taylors FAQ document"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir output  # create output dir
+          # this will also include README.md
+          # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: about.md ./show-specifics/wafflingtaylors.md guest-faq.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o wt-guest-faq.pdf --toc
+      - uses: actions/upload-artifact@master
+        with:
+          name: wt-output
+          path: ./wt-guest-faq.pdf
+
+  mdns:
+    needs: generic
+    name: "Render Modern .NET Show FAQ document"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          mkdir output  # create output dir
+          # this will also include README.md
+          # echo "::set-env name=FILELIST::$(printf '"%s" ' **.md)"
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: about.md ./show-specifics/moderndotnet.md guest-faq.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o mdns-guest-faq.pdf --toc
+      - uses: actions/upload-artifact@master
+        with:
+          name: mdns-output
+          path: ./mdns-guest-faq.pdf
 
   generic:
     name: "Render Generic FAQ document"
@@ -26,5 +61,5 @@ jobs:
           args: guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
       - uses: actions/upload-artifact@master
         with:
-          name: output
+          name: generic-output
           path: ./guest-faq.pdf
