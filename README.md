@@ -36,16 +36,32 @@ Pull requests are welcome, but please take a moment to read the [Code of Conduct
 
 ## Manually Rendering to PDF
 
-One of the quickest and easiest ways to render this markdown to a PDF (for example) is to use [PanDoc](https://pandoc.org/), which is available for free. In order to render the Guest FAQ as a PDF, simply run the following command:
+One of the quickest and easiest ways to render this markdown to a PDF (for example) is to use [PanDoc](https://pandoc.org/), which is available for free.
+
+There are three documents in this repository, rendering them all requires the use of three commands:
 
 ``` bash
-pandoc about.md guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -o guest-faq.pdf --toc
+# Render the Modern .NET Show FAQs
+pandoc ./show-specifics/moderndotnet.md guest-faq.md about.md --pdf-engine=xelatex -o mdns-guest-faq.pdf --toc
+
+# Render the Waffling Taylors FAQs
+pandoc ./show-specifics/wafflingtaylors.md guest-faq.md about.md  --pdf-engine=xelatex-o wt-guest-faq.pdf --toc
+
+# Render the generic podcasting FAQs
+pandoc guest-faq.md about.md --pdf-engine=xelatex -o guest-faq.pdf --toc
 ```
 
-This render the guest-faq.pdf. However the resulting PDF has very wide margins, as is the default in TeX based systems (which is what pandoc uses in the conversion). To produce a version of the document with smaller margins, use the following command:
+These will render the documents. However the resulting PDF has very wide margins, as is the default in TeX based systems (which is what pandoc uses in the conversion). To produce a version of the document with smaller margins, use the following command:
 
 ``` bash
-pandoc about.md guest-faq.md ./show-specifics/dotnetcore.md ./show-specifics/wafflingtaylors.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
+# Render the Modern .NET Show FAQs
+pandoc ./show-specifics/moderndotnet.md guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o mdns-guest-faq.pdf --toc
+
+# Render the Waffling Taylors FAQs
+pandoc ./show-specifics/wafflingtaylors.md guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o wt-guest-faq.pdf --toc
+
+# Render the generic podcasting FAQs
+pandoc guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
 ```
 
 ## Page Breaks
