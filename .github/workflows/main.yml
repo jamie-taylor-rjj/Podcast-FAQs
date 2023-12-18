@@ -26,7 +26,7 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         with:
           args: about.md ./show-specifics/${{ matrix.job }}.md guest-faq.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o ${{ env.OUTPUT_FILENAME }} --toc
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.job }}-output
           path: ./${{ matrix.job }}-guest-faq.pdf
@@ -43,7 +43,7 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         with:
           args: guest-faq.md about.md --pdf-engine=xelatex -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" -o guest-faq.pdf --toc
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: generic-output
           path: ./guest-faq.pdf
