@@ -12,6 +12,7 @@ on:
 
 jobs:
   wt:
+    needs: [generic, mdns]
     name: "Render Waffling Taylors FAQ document"
     runs-on: ubuntu-latest
     steps:
@@ -29,6 +30,7 @@ jobs:
           path: ./wt-guest-faq.pdf
 
   mdns:
+    needs: generic
     name: "Render Modern .NET Show FAQ document"
     runs-on: ubuntu-latest
     steps:
